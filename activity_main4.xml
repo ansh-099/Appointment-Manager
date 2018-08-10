@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_weight="1"
+        android:background="@color/checkcolor"
+        android:padding="10dp"
+        android:text="Time Slot-"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+  <TextView
+      android:layout_weight="2"
+      android:id="@+id/tvtime"
+      android:padding="10dp"
+      android:text="TEXT"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content" />
+</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:background="@color/checkcolor"
+            android:padding="10dp"
+            android:text="Name-"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    <EditText
+        android:layout_weight="2"
+        android:hint="Enter"
+        android:id="@+id/editName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_weight="1"
+        android:background="@color/checkcolor"
+        android:padding="10dp"
+        android:text="Phone Number-"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_weight="2"
+        android:hint="Enter"
+        android:id="@+id/editNo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:text="Age-"
+        android:background="@color/checkcolor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_weight="2"
+        android:id="@+id/age"
+        android:hint="Enter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="15dp" />
+    <Button
+        android:id="@+id/button"
+        android:text="Place An Appointment"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+<TextView
+    android:gravity="center"
+    android:text="Note- Appointment given would be of 15min."
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+
+</LinearLayout>

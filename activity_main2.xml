@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/to"
+    android:background="@color/checkcolor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+android:orientation="vertical"
+    tools:layout_editor_absoluteY="81dp">
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<TextView
+    android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+    android:padding="10dp"
+    android:gravity="center"
+    android:text= "MORNING"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <TextView
+        android:background="#23dc00"
+        android:layout_width="50dp"
+        android:layout_height="20dp" />
+    <TextView
+        android:text="Available"
+        android:layout_width="60dp"
+        android:layout_height="20dp" />
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="50dp"
+        android:layout_height="20dp" />
+    <TextView
+        android:text="Booked"
+        android:layout_width="60dp"
+        android:layout_height="20dp" />
+</LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="match_parent">
+
+
+            <Button
+
+                android:id="@+id/tv1"
+android:background="@drawable/draw_draw"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:text="9:00AM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:background="@drawable/draw_draw"
+                android:id="@+id/tv2"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:text="9:15AM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <Button
+                android:background="@drawable/draw_draw"
+                android:id="@+id/tv3"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:text="9:30AM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+<LinearLayout
+    android:gravity="center"
+    android:layout_weight="1"
+    android:layout_width="0dp"
+    android:layout_height="match_parent">
+    <Button
+        android:background="@drawable/draw_draw"
+        android:textSize="15dp"
+        android:id="@+id/tv4"
+        android:text="9:45AM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <Button
+                android:background="@drawable/draw_draw"
+                android:id="@+id/tv5"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:text="10:00AM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:background="@drawable/draw_draw"
+                android:id="@+id/tv6"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:text="10:15AM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:background="@drawable/draw_draw"
+                android:id="@+id/tv7"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:text="10:30AM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <Button
+                android:background="@drawable/draw_draw"
+                android:textSize="15dp"
+                android:id="@+id/tv8"
+                android:text="10:45AM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:background="@drawable/draw_draw"
+                android:id="@+id/tv9"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:text="11:00AM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:background="@drawable/draw_draw"
+                android:id="@+id/tv10"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:text="11:15AM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:background="@drawable/draw_draw"
+                android:id="@+id/tv11"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:text="11:30AM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <Button
+                android:background="@drawable/draw_draw"
+                android:textSize="15dp"
+                android:id="@+id/tv12"
+                android:text="11:45AM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <Button
+                android:background="@drawable/draw_draw"
+                android:text="12:00PM"
+                android:textSize="15dp"
+                android:id="@+id/tv13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <Button
+                android:background="@drawable/draw_draw"
+                android:text="12:15PM"
+                android:textSize="15dp"
+                android:id="@+id/tv14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <Button
+                android:background="@drawable/draw_draw"
+                android:textSize="15dp"
+                android:text="12:30PM"
+                android:id="@+id/tv15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <Button
+                android:background="@drawable/draw_draw"
+                android:text="12:45PM"
+                android:textSize="15dp"
+                android:id="@+id/tv16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

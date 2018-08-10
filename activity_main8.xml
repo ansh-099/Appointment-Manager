@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/checkcolor"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".Main8Activity">
+
+    <TextView
+        android:background="@color/check2"
+        android:layout_width="match_parent"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="About Us-" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:id="@+id/textViewt"
+        android:textSize="20dp"
+        android:background="@color/check2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+       <TextView
+           android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+           android:background="@color/check2"
+           android:id="@+id/textViewc"
+           android:textSize="15dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+
+    <TextView
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:textSize="18dp"
+        android:background="@color/check2"
+        android:text="Clinic Timing-9AM-1PM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/check2"
+        android:text="                         6PM-9PM"
+        android:textSize="18dp" />
+    <TextView
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:background="@color/check2"
+        android:textSize="18dp"
+        android:text="                         Sunday Closed."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/check2"
+        android:text="Ph -9810216896"
+        android:textSize="18dp" />
+    <TextView
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:text="       9650723679"
+        android:background="@color/check2"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:text="Address-116 Hargobind Enclave Delhi 110092(near Karkardooma Metro Station)"
+        android:background="@color/check2"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+
+</LinearLayout>

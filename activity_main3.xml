@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/checkcolor"
+    tools:context=".Main3Activity"
+    tools:layout_editor_absoluteY="57dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="Select Time Slot"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/eveningit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/morning" />
+
+    <Button
+        android:id="@+id/morning"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="48dp"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/draw1"
+        android:text="Morning"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/eveningit"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/eveningit"
+        android:layout_width="149dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="124dp"
+        android:background="@drawable/draw1"
+        android:text="Evening"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+</android.support.constraint.ConstraintLayout>
